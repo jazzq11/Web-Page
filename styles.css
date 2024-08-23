@@ -1,0 +1,123 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #007BFF 3px solid;
+}
+
+header .logo {
+    float: left;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: white;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header .nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header .nav-links li a:hover {
+    color: #007BFF;
+}
+
+.header-content {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.header-content h2 {
+    font-size: 2.5em;
+    margin: 10px 0;
+    color: #007BFF;
+}
+
+.header-content .sub-title {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #007BFF;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.section-light {
+    padding: 40px 0;
+    background: #f4f4f4;
+}
+
+.section-dark {
+    padding: 40px 0;
+    background: #333;
+    color: white;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #007BFF;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li strong {
+    color: #007BFF;
+}
+
+footer {
+    background: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
